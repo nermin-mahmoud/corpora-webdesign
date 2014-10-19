@@ -1,0 +1,410 @@
+﻿/********** General Styles **********/
+
+body{
+	font-family: arial, tahoma, sans-serif;
+	font-size: 12px;
+	color: #444549;
+}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.cl{clear: left;}
+.cr{clear: right;}
+.cb{clear: both;}
+
+h1{
+	font-size: 24px;
+}
+h3{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+h6{
+	font-size: 11px;
+}
+a{
+	color:#dd0c46;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+div.sepContainer{
+	height: 14px;
+	background: url('../img/separatorBG.png') 0 0 repeat-x ;
+	display: block;
+	margin: 30px 0;
+}
+
+.noBorderBottom{
+	border-bottom: none !important;
+}
+
+.lastCol{
+	margin-right: 0 !important; 
+}
+
+div.blankSeparator{
+	margin-bottom: 30px;
+	height: 1px;
+	display: block;
+	margin: 30px 0;
+}
+
+a.readMoreLink{
+	font-size: 11px;
+	background: url('../img/listArrowRed.png') center right no-repeat;
+	padding-right: 15px;
+}
+/********** Structure Styles **********/
+div.centerContainer{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div#rightContainer{
+	width: 550px;
+}
+
+div#leftContainer{
+	width: 360px;
+	margin-right: 50px;
+}
+
+
+/********** Top Section **********/
+div#topContainer{
+	background: url('../img/topBG.png') 0 0 repeat;
+	height: 100px;
+}
+
+a.logo{
+	margin-top: 20px;
+}
+
+div#topContactInfo{
+	background: url('../img/topPaper.png') 0 0 no-repeat;
+	width: 268px;
+	height: 96px;
+}
+
+   div#topContactInfo ul{
+   	padding: 0 30px; 
+   	margin-top: 10px;
+   	
+   }
+
+      div#topContactInfo ul li{
+      	border-bottom: 1px solid #ebebed;
+      }
+
+         div#topContactInfo ul li p {
+         	color: #92979d;
+         	font-size: 11px;
+         	background: url('../img/listArrowDark.png') left center no-repeat;
+         	padding-left: 15px;
+         	margin: 5px 0 ;
+         	background-size: 10px
+
+         }
+
+             div#topContactInfo ul li ul{
+             	padding: 0;
+             	margin: 3px 0 0 3px;
+             }
+
+
+            div#topContactInfo ul li ul li{
+            	display: inline;
+            	border: none;
+            	padding-right: 5px
+            }
+
+/********** Menu Section **********/
+div#menuContainer{
+	background: url('../img/menuBG.png') 0 0 repeat-x;
+	height: 80px;
+}
+
+ul#nav li{
+	display: inline;
+	float: left;
+	background: url('../img/menuSap.png') center right no-repeat;
+	margin: 23px 30px 0 0;
+}
+
+ul#nav li a{
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+ul#nav li a:hover{
+	text-decoration: none;
+	color: #92979d;
+}
+
+ul#nav li a span{
+	font-size: 12px;
+	text-transform: lowercase;
+	display: block;
+	color: #606168;
+	padding-right: 30px;
+	margin-top: 5px;
+}
+
+/********** Slider Section **********/
+
+div#sliderContainer{
+	margin-top: 20px
+	/*
+	background: url('../img/sliderBG.png') 0 0 repeat-x; 
+	height: 300px; */
+}
+
+/********** Service Section **********/
+
+div.oneThirdCol{
+	width: 285px;
+	margin-right: 50px;
+	float: left;
+}
+   div.oneThirdCol img{
+   	margin: 0 15px 15px 0;
+   }
+
+div#serviceListContainer h3{
+	color: #2d2f33;
+	margin-top: 12px;
+}
+
+div#serviceListContainer p{
+	color: #919295;
+	clear: left;
+}
+
+div#serviceListContainer ul li{
+	background: url('../img/listArrowDark.png') center left no-repeat;
+	padding: 3px 3px 3px 15px;
+}
+
+div#col1{background: url('../img/col1BG.png') bottom right no-repeat;}
+div#col2{background: url('../img/col2BG.png') bottom right no-repeat;}
+div#col3{background: url('../img/col3BG.png') bottom right no-repeat;}
+
+/********** News Section **********/
+h3.sectionHeading{
+	color: #dd0c46;
+	margin-bottom: 30px;
+}
+   h3.sectionHeading span{
+   	background-color: #dd0c46;
+   	color: white;
+   	padding: 7px 10px;
+
+   	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	border-radius: 5px;
+
+   }
+
+ul#newsList{
+
+}
+      
+      ul#newsList li{
+      	border-bottom: 1px solid#e1e5e9;
+      	margin-bottom: 20px;
+      	padding-bottom: 20px;
+
+      }
+
+          ul#newsList li h6{
+          	color: #91a2a4;
+          	margin-bottom: 5px;
+          }
+
+            ul#newsList li h3{
+            	text-transform: capitalize;
+            }
+
+/********** client Section **********/
+
+blockquote{
+	background: url('../img/quoteImg.png') top left no-repeat;
+	margin-left: 20px;
+}
+    blockquote p{
+    	color: #919295;
+    	font-size: 14px;
+    	font-style: italic;
+    	margin-left: 80px;
+    }
+
+div#clientListContainer{
+	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	border-radius: 5px;
+
+   	border:1px solid #e1e5e9;
+   	overflow: hidden;
+}
+
+ul#clientList li{
+	display: inline;
+	float: left;
+	background: url('../img/clientListBG.png') 0 0 repeat-x;
+
+	border-bottom: 1px solid #e1e5e9;
+	border-right: 1px solid #e1e5e9;
+
+
+	text-align: center;
+}
+
+    ul#clientList li p{
+    	margin: 0;
+
+    	width: 136px;
+    	height: 112px;
+
+    	line-height: 112px;
+
+    	display: table;
+    }
+
+    ul#clientList li p a{
+    	display: table-cell;
+    	vertical-align: middle;
+    }
+
+      /* ul#clientList li p img{
+       	vertical-align: middle;*/
+
+
+
+       	/* margin-top: 40px; */
+       }
+
+/********** Footer Section **********/
+
+div#footerContainer{
+	background: url('../img/footerBG.png') 0 0 repeatsl;
+	padding: 30px 0;
+}
+   div#footerContainer h3{
+   	color: #e1e5e9;
+   }
+
+   div#footerContainer p {
+   	color: #e1e5e9;
+   	
+   }
+
+   ul#tweetList p{
+   	font-size: 11px;
+   	font-style: italic;
+   }
+
+     div#footerContainer p a{
+     	color: white;
+     	text-decoration: underline;
+     }
+
+     div#footerContainer p span{
+     	display: block;
+     	color: #77797c;
+     }
+
+div#copyrightContainer{
+	background: url('../img/copyrightBG.png') 0 0 repeat;
+	padding: 20px 0;
+}
+
+form#subscribeForm input[type="text"] {
+	background: url('../img/darkInputBG.png') 0 0 repeat-x;
+	height: 45px;
+
+
+	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	border-radius: 5px;
+
+   	width: 270px;
+   	border:none;
+   	padding-left: 10px
+}
+
+form#subscribeForm div{
+	position: relative;
+	height: 50px
+}
+
+a.redButton{
+	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	border-radius: 5px;
+
+   	padding: 10px 20px;
+
+
+   	background: url('../img/redButtonBG.png') 0 0 repeat-x;
+}
+
+a.redButton:hover{
+	background: url('../img/redButtonBGOver.png') 0 0 repeat-x;
+}
+
+  a.redButton img{ 
+  	margin: 7px 0 3px 3px;
+  }
+
+a#newsletterSignup{
+	position: absolute;
+	top: 2px;
+	right: 7px;
+}
+
+ul#bottonContactInfo li {
+	-moz-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	border-radius: 5px;
+
+   	background-color: #424347;
+   	font-size: 11px;
+   	margin-bottom: 3px;
+}
+
+   ul#bottomContactInfo li p{
+   	padding: 12px 15px;
+   	margin: 0;
+   }
+
+ul.socialIcons li{
+	display: inline;
+	margin-right: 3px;
+}
+
+div#copyrightContainer ul.socialIcons{
+	margin-top: 15px;
+}
+
+p#bottomCopyright{
+	color: #e1e5e9;
+	background: url('../img/logoGray.png') center left no-repeat;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 128px;
+}
